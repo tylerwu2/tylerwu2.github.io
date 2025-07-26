@@ -1,9 +1,79 @@
 body {
-    background-color: powderblue;
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
-  }
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align:center;
+}
+
+.front-page{
+  position: relative;
+  width:100%;
+  height:100vh; 
+  background-color:#f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav{
+  display:flex;
+  width: 50%;
+  margin: auto;
+  padding: 20px; 
+  align-items:center; 
+  justify-content: space-between;
+}
+
+nav ul li{
+  display: inline-block;  
+  list-style: none; 
+  margin:10px 20px; 
+}
+
+nav ul li a{
+  text-decoration:underline;
+  color: black; 
+  font-weight:bold;  
+}
+
+nav ul li a:hover{
+  color:#c8c8c8;
+}
+
+.front-content{
+  text-align: center;
+  margin-top:10%
+}
+
+.front_content h1{
+  font-size: 50px; 
+  color:#333;
+  margin-bottom: 20px;
+}
+
+.front-content p{
+  color:#333; 
+  line-height:22px; 
+}
+
+.front-content a{
+  align-items: center;
+  background-color:rgb(0, 0, 0); 
+  padding: 10px 18px; 
+  text-decoration: none; 
+  font-weight: bold;
+  color: #f4f4f4;
+  display:inline-block; 
+  margin: 30px 0;
+  border-radius: 5px;  
+}
