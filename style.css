@@ -5,29 +5,31 @@ body {
     padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 h1 {
     color: #333;
     text-align:center;
 }
 
-.front-page{
-  position: relative;
-  width:100%;
-  height:100vh; 
-  background-color:#f4f4f4;
+.home-button{
+  color:black; 
+  font-size: 35px; 
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 nav{
   display:flex;
-  width: 50%;
+  width: auto;
   margin: auto;
   padding: 20px; 
   align-items:center; 
@@ -50,7 +52,7 @@ nav ul li a:hover{
   color:#c8c8c8;
 }
 
-.front-content{
+.front_content{
   text-align: center;
   margin-top:10%
 }
@@ -61,12 +63,12 @@ nav ul li a:hover{
   margin-bottom: 20px;
 }
 
-.front-content p{
+.front_content p{
   color:#333; 
   line-height:22px; 
 }
 
-.front-content a{
+.front_content a{
   align-items: center;
   background-color:rgb(0, 0, 0); 
   padding: 10px 18px; 

@@ -5,21 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tyler Wu - Personal Website</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- import box icons stylesheet -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    <h1>Personal Website</h1>
-    <div class="front-page">
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="projects.html">PROJECTS</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+    <header class = "header">
+        <nav >
+            <div class="header_links">
+                <a href="#" class="home-button"><i class="bx bx-home"></i></a>
+            </div>
+            <ul class="header_list">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
-        <div class="front-content">
-            <p>Here is my official website that details my work experience and personal projects.</p>
-            <a href="#">RESUME</a>
-        </div>
-    </div>
+    </header>
+
+    <main>
+        <section class = "front_page", id = "home">
+            <div class="front_content">
+                <p>Here is my official website that details my work experience and personal projects.</p>
+                <a href="#" class="button">RESUME</a>
+            </div>
+
+            <div class="front_contact">
+                <a href="https://www.linkedin.com/in/tyler-j-wu/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/tylerwu2"><i class='bx bxl-github' ></i></a>
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
