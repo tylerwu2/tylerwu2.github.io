@@ -105,3 +105,34 @@ nav{
 .front_contact a:hover{
   color: #c8c8c8;
 }
+
+.projects_content{
+  text-align: center; 
+  margin-top: 10%; 
+}
+
+
+.skills_content {
+  text-align: center; 
+  margin-top: 10%; 
+}
+
+.contact_content {
+  text-align: center;
+  margin-top: 10%; 
+}
+
+.contact_content p{
+  color: var(--font_color_1);
+  align-items: center;
+  padding: clamp(8px, 1vw, 12px) clamp(14px, 1.5vw, 20px);
+  text-decoration: none;
+  font-weight: bold; 
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+  display: inline-block; 
+  margin: 2em 0;
+  border-radius: 10px; 
+  font-size: clamp(14px, 1.8 vw, 18px); 
+  transition:cubic-bezier(0.23, 1, 0.320, 1) 0.2s ease-in-out; 
+}
